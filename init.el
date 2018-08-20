@@ -20,8 +20,8 @@
 ;;(require 'better-projectile)
 ;;(require 'better-xterm)
 (require 'better-netutils)
-(require 'better-exwm)
-(require 'better-input)
+;;(require 'better-exwm)
+;;(require 'better-input)
 
 ;;; langs
 ;;(require 'init-org)
@@ -52,7 +52,9 @@
  '(custom-safe-themes
    (quote
     ("233bb646e100bda00c0af26afe7ab563ef118b9d685f1ac3ca5387856674285d" default dracula)))
- '(package-selected-packages (quote (pyim exwm))))
+ '(package-selected-packages
+   (quote
+    (yaml-mode haskell-mode solidity-mode markdown-mode pyim exwm))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

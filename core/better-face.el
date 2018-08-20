@@ -7,9 +7,9 @@
 (fringe-mode 1)
 
 ;; Turn on `display-time-mode' if you don't use an external bar.
-(setq display-time-default-load-average nil)
-(display-time-mode t)
-(display-battery-mode t)
+;;(setq display-time-default-load-average nil)
+;;(display-time-mode t)
+;;(display-battery-mode t)
 
 (require-package 'disable-mouse)
 (global-disable-mouse-mode)
@@ -61,6 +61,9 @@
 
 (require-package 'dracula-theme)
 (load-theme 'dracula t)
+
+;; transparency
+(set-frame-parameter nil 'alpha '(10 . 50))
 
 (provide 'better-face)
 

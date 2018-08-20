@@ -41,6 +41,9 @@
 ;; Here are a few examples:
 (setq exwm-input-global-keys
       `(
+        ;;Bind input method to global.
+        ([?\s-\\] . toggle-input-method)
+        ([?\s-f] . find-file)
         ;; Bind "s-r" to exit char-mode and fullscreen mode.
         ([?\s-r] . exwm-reset)
         ;; Bind "s-w" to switch workspace interactively.
@@ -95,7 +98,7 @@
 
 ;; You can hide the minibuffer and echo area when they're not used, by
 ;; uncommenting the following line.
-(setq exwm-workspace-minibuffer-position 'bottom)
+;;(setq exwm-workspace-minibuffer-position 'bottom)
 
 ;; Do not forget to enable EXWM. It will start by itself when things are
 ;; ready.  You can put it _anywhere_ in your configuration.
