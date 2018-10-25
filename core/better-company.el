@@ -1,3 +1,8 @@
+;;; package --- better-face
+;;; Commentary:
+;;;   Sun's Config MIT-LICENSE
+;;; Code:
+
 ;; WAITING: haskell-mode sets tags-table-list globally, breaks tags-completion-at-point-function
 ;; TODO Default sort order should place [a-z] before punctuation
 

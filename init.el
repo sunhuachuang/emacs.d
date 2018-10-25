@@ -16,7 +16,7 @@
 (require 'better-editing)
 (require 'better-company)
 (require 'better-flycheck)
-;;(require 'better-git)
+(require 'better-git)
 ;;(require 'better-projectile)
 ;;(require 'better-xterm)
 (require 'better-netutils)
@@ -36,6 +36,7 @@
 ;;(require 'init-toml)
 (require 'init-web)
 ;;(require 'init-yaml)
+(require 'init-dart)
 
 
 
