@@ -26,7 +26,7 @@
   ;;   :config (pyim-wbdict-gbk-enable))
   (setq pyim-dicts
         '((:name "pyim.pyi," :file "/home/sun/.emacs.d/vendor/pyim-bigdict.pyim")))
-  
+
   (setq default-input-method "pyim")
 
   ;; 我使用全拼
